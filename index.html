@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal de Aplicativos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="layout">
+    <main class="content">
+      <section class="panel" id="aplicativos">
+        <header class="page-header">
+          <div>
+            <p class="eyebrow">PORTAL DE SERVICIOS</p>
+            <h1>Aplicativos</h1>
+            <p class="subtitle">
+              Seleccione un aplicativo para ingresar. El enlace se abrirá en una pestaña nueva.
+            </p>
+          </div>
+        </header>
+
+        <div class="toolbar">
+          <label class="search-box" for="buscador">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m21 21-4.35-4.35m1.35-5.65a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/>
+            </svg>
+            <input
+              id="buscador"
+              type="search"
+              placeholder="Buscar aplicativo..."
+              autocomplete="off"
+            >
+          </label>
+
+          <span class="counter" id="contador">0 aplicativos</span>
+        </div>
+
+        <div class="apps-grid" id="lista-aplicativos" aria-live="polite"></div>
+
+        <div class="empty-state" id="sin-resultados" hidden>
+          <div class="empty-icon">⌕</div>
+          <h2>No se encontraron aplicativos</h2>
+          <p>Pruebe con otro nombre o palabra.</p>
+        </div>
+
+        <footer class="panel-footer" id="informacion">
+          <strong>Importante:</strong>
+          algunos aplicativos pueden requerir acceso a la red institucional.
+        </footer>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
