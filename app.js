@@ -43,6 +43,13 @@ const aplicativos = [
     categoria: "Reportes",
     url: "http://10.0.62.174:5050/",
     sigla: "RR"
+  },
+  {
+    nombre: "Plataforma GPC",
+    descripcion: "Plataforma de guías de práctica clínica, mapa de recomendaciones y versión navegable.",
+    categoria: "GPC",
+    url: "http://10.0.62.174:4000/",
+    sigla: "GPC"
   }
 ];
 
