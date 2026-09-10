@@ -50,6 +50,13 @@ const aplicativos = [
     categoria: "GPC",
     url: "http://10.0.62.174:4000/",
     sigla: "GPC"
+  },
+  {
+    nombre: "Mensajes automáticos REDCap",
+    descripcion: "Servicio para mensajes automáticos REDCap.",
+    categoria: "REDCap",
+    url: "http://10.0.62.174:5000/",
+    sigla: "MAR"
   }
 ];
 
