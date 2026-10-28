@@ -57,6 +57,13 @@ const aplicativos = [
     categoria: "REDCap",
     url: "http://10.0.62.174:5000/",
     sigla: "MAR"
+  },
+  {
+    nombre: "Inkscape",
+    descripcion: "Editor de gráficos vectoriales para crear y modificar ilustraciones, logotipos y archivos compatibles con Adobe Illustrator.",
+    categoria: "Diseño gráfico",
+    url: "https://10.0.62.174:3001/",
+    sigla: "INK"
   }
 ];
 
